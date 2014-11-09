@@ -15,6 +15,10 @@
 		6537EB6B1A0EAC4F000CAEC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6537EB691A0EAC4F000CAEC1 /* LaunchScreen.xib */; };
 		6537EB771A0EAC4F000CAEC1 /* ParkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6537EB761A0EAC4F000CAEC1 /* ParkAppTests.swift */; };
 		65702A171A10230000FD1303 /* SearchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A161A10230000FD1303 /* SearchPage.m */; };
+		65702A1A1A10234400FD1303 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A191A10234400FD1303 /* MainPage.m */; };
+		65702A1D1A10235000FD1303 /* ReportPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A1C1A10235000FD1303 /* ReportPage.m */; };
+		65702A201A10236000FD1303 /* RentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A1F1A10235F00FD1303 /* RentPage.m */; };
+		65702A231A1023A700FD1303 /* ProfilePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A221A1023A700FD1303 /* ProfilePage.m */; };
 		F377A9371A0EC5480001480E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F377A9361A0EC5480001480E /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +46,14 @@
 		6537EB761A0EAC4F000CAEC1 /* ParkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAppTests.swift; sourceTree = "<group>"; };
 		65702A151A10230000FD1303 /* SearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchPage.h; path = ../SearchPage.h; sourceTree = "<group>"; };
 		65702A161A10230000FD1303 /* SearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchPage.m; path = ../SearchPage.m; sourceTree = "<group>"; };
+		65702A181A10234400FD1303 /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
+		65702A191A10234400FD1303 /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
+		65702A1B1A10235000FD1303 /* ReportPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportPage.h; sourceTree = "<group>"; };
+		65702A1C1A10235000FD1303 /* ReportPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportPage.m; sourceTree = "<group>"; };
+		65702A1E1A10235F00FD1303 /* RentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentPage.h; sourceTree = "<group>"; };
+		65702A1F1A10235F00FD1303 /* RentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentPage.m; sourceTree = "<group>"; };
+		65702A211A1023A700FD1303 /* ProfilePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilePage.h; sourceTree = "<group>"; };
+		65702A221A1023A700FD1303 /* ProfilePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilePage.m; sourceTree = "<group>"; };
 		F377A9341A0EC5470001480E /* ParkApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParkApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		F377A9351A0EC5480001480E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F377A9361A0EC5480001480E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -86,16 +98,17 @@
 		6537EB5B1A0EAC4F000CAEC1 /* ParkApp */ = {
 			isa = PBXGroup;
 			children = (
-				6537EB5E1A0EAC4F000CAEC1 /* AppDelegate.swift */,
 				65702A151A10230000FD1303 /* SearchPage.h */,
 				65702A161A10230000FD1303 /* SearchPage.m */,
-				6537EB601A0EAC4F000CAEC1 /* FirstViewController.swift */,
-				6537EB621A0EAC4F000CAEC1 /* SecondViewController.swift */,
 				6537EB641A0EAC4F000CAEC1 /* Main.storyboard */,
-				F377A9351A0EC5480001480E /* LoginViewController.h */,
-				F377A9361A0EC5480001480E /* LoginViewController.m */,
-				6537EB671A0EAC4F000CAEC1 /* Images.xcassets */,
-				6537EB691A0EAC4F000CAEC1 /* LaunchScreen.xib */,
+				65702A211A1023A700FD1303 /* ProfilePage.h */,
+				65702A221A1023A700FD1303 /* ProfilePage.m */,
+				65702A181A10234400FD1303 /* MainPage.h */,
+				65702A191A10234400FD1303 /* MainPage.m */,
+				65702A1B1A10235000FD1303 /* ReportPage.h */,
+				65702A1C1A10235000FD1303 /* ReportPage.m */,
+				65702A1E1A10235F00FD1303 /* RentPage.h */,
+				65702A1F1A10235F00FD1303 /* RentPage.m */,
 				6537EB5C1A0EAC4F000CAEC1 /* Supporting Files */,
 				F377A9341A0EC5470001480E /* ParkApp-Bridging-Header.h */,
 			);
@@ -105,6 +118,13 @@
 		6537EB5C1A0EAC4F000CAEC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6537EB601A0EAC4F000CAEC1 /* FirstViewController.swift */,
+				F377A9361A0EC5480001480E /* LoginViewController.m */,
+				6537EB671A0EAC4F000CAEC1 /* Images.xcassets */,
+				6537EB691A0EAC4F000CAEC1 /* LaunchScreen.xib */,
+				F377A9351A0EC5480001480E /* LoginViewController.h */,
+				6537EB621A0EAC4F000CAEC1 /* SecondViewController.swift */,
+				6537EB5E1A0EAC4F000CAEC1 /* AppDelegate.swift */,
 				6537EB5D1A0EAC4F000CAEC1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -228,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F377A9371A0EC5480001480E /* LoginViewController.m in Sources */,
+				65702A231A1023A700FD1303 /* ProfilePage.m in Sources */,
 				65702A171A10230000FD1303 /* SearchPage.m in Sources */,
 				6537EB631A0EAC4F000CAEC1 /* SecondViewController.swift in Sources */,
+				65702A201A10236000FD1303 /* RentPage.m in Sources */,
+				65702A1D1A10235000FD1303 /* ReportPage.m in Sources */,
+				65702A1A1A10234400FD1303 /* MainPage.m in Sources */,
 				6537EB5F1A0EAC4F000CAEC1 /* AppDelegate.swift in Sources */,
 				6537EB611A0EAC4F000CAEC1 /* FirstViewController.swift in Sources */,
 			);

@@ -110,7 +110,7 @@
         <!--Rent-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController title="Rent" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="ParkApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Rent" id="8rJ-Kc-sve" customClass="RentPage" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -221,7 +221,7 @@
         <!--Report-->
         <scene sceneID="KDY-we-G19">
             <objects>
-                <viewController id="gNv-Us-b2Q" sceneMemberID="viewController">
+                <viewController id="gNv-Us-b2Q" customClass="ReportPage" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dBm-lh-6M5"/>
                         <viewControllerLayoutGuide type="bottom" id="Dkv-tS-9dc"/>
@@ -258,7 +258,7 @@
         <!--Profile-->
         <scene sceneID="eJN-VH-GEc">
             <objects>
-                <viewController id="fgp-by-Kot" sceneMemberID="viewController">
+                <viewController id="fgp-by-Kot" customClass="ProfilePage" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="poz-c3-3u2"/>
                         <viewControllerLayoutGuide type="bottom" id="80y-iJ-VdJ"/>
@@ -338,10 +338,10 @@
             </objects>
             <point key="canvasLocation" x="-1923" y="774.75"/>
         </scene>
-        <!--Login View Controller-->
+        <!--Main Page-->
         <scene sceneID="8XX-Ht-DQm">
             <objects>
-                <viewController id="fSe-25-NFT" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController id="fSe-25-NFT" customClass="MainPage" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0LG-zl-h5m"/>
                         <viewControllerLayoutGuide type="bottom" id="BXF-JS-uFm"/>
