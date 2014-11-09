@@ -14,6 +14,7 @@
 		6537EB681A0EAC4F000CAEC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6537EB671A0EAC4F000CAEC1 /* Images.xcassets */; };
 		6537EB6B1A0EAC4F000CAEC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6537EB691A0EAC4F000CAEC1 /* LaunchScreen.xib */; };
 		6537EB771A0EAC4F000CAEC1 /* ParkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6537EB761A0EAC4F000CAEC1 /* ParkAppTests.swift */; };
+		65702A171A10230000FD1303 /* SearchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A161A10230000FD1303 /* SearchPage.m */; };
 		F377A9371A0EC5480001480E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F377A9361A0EC5480001480E /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,8 @@
 		6537EB701A0EAC4F000CAEC1 /* ParkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6537EB751A0EAC4F000CAEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6537EB761A0EAC4F000CAEC1 /* ParkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAppTests.swift; sourceTree = "<group>"; };
+		65702A151A10230000FD1303 /* SearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchPage.h; path = ../SearchPage.h; sourceTree = "<group>"; };
+		65702A161A10230000FD1303 /* SearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchPage.m; path = ../SearchPage.m; sourceTree = "<group>"; };
 		F377A9341A0EC5470001480E /* ParkApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParkApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		F377A9351A0EC5480001480E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F377A9361A0EC5480001480E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				6537EB5E1A0EAC4F000CAEC1 /* AppDelegate.swift */,
+				65702A151A10230000FD1303 /* SearchPage.h */,
+				65702A161A10230000FD1303 /* SearchPage.m */,
 				6537EB601A0EAC4F000CAEC1 /* FirstViewController.swift */,
 				6537EB621A0EAC4F000CAEC1 /* SecondViewController.swift */,
 				6537EB641A0EAC4F000CAEC1 /* Main.storyboard */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F377A9371A0EC5480001480E /* LoginViewController.m in Sources */,
+				65702A171A10230000FD1303 /* SearchPage.m in Sources */,
 				6537EB631A0EAC4F000CAEC1 /* SecondViewController.swift in Sources */,
 				6537EB5F1A0EAC4F000CAEC1 /* AppDelegate.swift in Sources */,
 				6537EB611A0EAC4F000CAEC1 /* FirstViewController.swift in Sources */,
