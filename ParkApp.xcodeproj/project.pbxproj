@@ -21,6 +21,8 @@
 		65702A231A1023A700FD1303 /* ProfilePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A221A1023A700FD1303 /* ProfilePage.m */; };
 		F377A9371A0EC5480001480E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F377A9361A0EC5480001480E /* LoginViewController.m */; };
 		F3B61C8E1A11666500E60186 /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B61C8D1A11666500E60186 /* FXForms.m */; };
+		F3B61C911A1194C800E60186 /* LoginForm.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B61C901A1194C800E60186 /* LoginForm.m */; };
+		F3B61C941A1194DD00E60186 /* RegistrationForm.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B61C931A1194DD00E60186 /* RegistrationForm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		F377A9361A0EC5480001480E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		F3B61C8C1A11666500E60186 /* FXForms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXForms.h; sourceTree = "<group>"; };
 		F3B61C8D1A11666500E60186 /* FXForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXForms.m; sourceTree = "<group>"; };
+		F3B61C8F1A1194C800E60186 /* LoginForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginForm.h; sourceTree = "<group>"; };
+		F3B61C901A1194C800E60186 /* LoginForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginForm.m; sourceTree = "<group>"; };
+		F3B61C921A1194DD00E60186 /* RegistrationForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationForm.h; sourceTree = "<group>"; };
+		F3B61C931A1194DD00E60186 /* RegistrationForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationForm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 				65702A1F1A10235F00FD1303 /* RentPage.m */,
 				F3B61C8C1A11666500E60186 /* FXForms.h */,
 				F3B61C8D1A11666500E60186 /* FXForms.m */,
+				F3B61C8F1A1194C800E60186 /* LoginForm.h */,
+				F3B61C901A1194C800E60186 /* LoginForm.m */,
+				F3B61C921A1194DD00E60186 /* RegistrationForm.h */,
+				F3B61C931A1194DD00E60186 /* RegistrationForm.m */,
 				6537EB5C1A0EAC4F000CAEC1 /* Supporting Files */,
 				F377A9341A0EC5470001480E /* ParkApp-Bridging-Header.h */,
 			);
@@ -255,6 +265,8 @@
 				F377A9371A0EC5480001480E /* LoginViewController.m in Sources */,
 				65702A231A1023A700FD1303 /* ProfilePage.m in Sources */,
 				65702A171A10230000FD1303 /* SearchPage.m in Sources */,
+				F3B61C911A1194C800E60186 /* LoginForm.m in Sources */,
+				F3B61C941A1194DD00E60186 /* RegistrationForm.m in Sources */,
 				6537EB631A0EAC4F000CAEC1 /* SecondViewController.swift in Sources */,
 				65702A201A10236000FD1303 /* RentPage.m in Sources */,
 				65702A1D1A10235000FD1303 /* ReportPage.m in Sources */,
