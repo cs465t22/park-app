@@ -24,6 +24,7 @@
 		F3B61C8E1A11666500E60186 /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B61C8D1A11666500E60186 /* FXForms.m */; };
 		F3B61C911A1194C800E60186 /* LoginForm.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B61C901A1194C800E60186 /* LoginForm.m */; };
 		F3B61C941A1194DD00E60186 /* RegistrationForm.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B61C931A1194DD00E60186 /* RegistrationForm.m */; };
+		F3B61C9A1A11A6EB00E60186 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B61C991A11A6EB00E60186 /* RegistrationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		F3B61C901A1194C800E60186 /* LoginForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginForm.m; sourceTree = "<group>"; };
 		F3B61C921A1194DD00E60186 /* RegistrationForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationForm.h; sourceTree = "<group>"; };
 		F3B61C931A1194DD00E60186 /* RegistrationForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationForm.m; sourceTree = "<group>"; };
+		F3B61C981A11A6EB00E60186 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationViewController.h; path = ../RegistrationViewController.h; sourceTree = "<group>"; };
+		F3B61C991A11A6EB00E60186 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationViewController.m; path = ../RegistrationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		6537EB5B1A0EAC4F000CAEC1 /* ParkApp */ = {
 			isa = PBXGroup;
 			children = (
+				F3B61C981A11A6EB00E60186 /* RegistrationViewController.h */,
+				F3B61C991A11A6EB00E60186 /* RegistrationViewController.m */,
 				65702A151A10230000FD1303 /* SearchPage.h */,
 				65702A161A10230000FD1303 /* SearchPage.m */,
 				6537EB641A0EAC4F000CAEC1 /* Main.storyboard */,
@@ -277,6 +282,7 @@
 				65702A1A1A10234400FD1303 /* MainPage.m in Sources */,
 				F3B61C8E1A11666500E60186 /* FXForms.m in Sources */,
 				6537EB5F1A0EAC4F000CAEC1 /* AppDelegate.swift in Sources */,
+				F3B61C9A1A11A6EB00E60186 /* RegistrationViewController.m in Sources */,
 				6537EB611A0EAC4F000CAEC1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
