@@ -7,7 +7,6 @@
 //
 
 #import "RegistrationForm.h"
-#import "ISO3166CountryValueTransformer.h"
 
 
 @implementation RegistrationForm
@@ -54,14 +53,6 @@
              
              @"profilePhoto",
              @"phone",
-             
-             //the country value in our form is a locale code, which isn't human readable
-             //so we've used the FXFormFieldValueTransformer option to supply a value transformer
-             
-             @{FXFormFieldKey: @"country",
-               FXFormFieldOptions: @[@"us", @"ca", @"gb", @"sa", @"be"],
-               FXFormFieldDefaultValue: @"us",
-               FXFormFieldValueTransformer: [[ISO3166CountryValueTransformer alloc] init]},
              
              //this is an options field that uses a FXFormOptionPickerCell to display the available
              //options in a UIPickerView
