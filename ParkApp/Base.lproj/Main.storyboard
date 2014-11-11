@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RnV-Us-evf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RnV-Us-evf">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -255,73 +255,6 @@
             </objects>
             <point key="canvasLocation" x="741" y="1025.25"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="eJN-VH-GEc">
-            <objects>
-                <viewController id="fgp-by-Kot" customClass="ProfilePage" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="poz-c3-3u2"/>
-                        <viewControllerLayoutGuide type="bottom" id="80y-iJ-VdJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="KLM-2P-Bxt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QtQ-AB-VHv">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="117" y="326" width="166" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Vf-X0-IHg">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="117" y="424" width="166" height="30"/>
-                                </variation>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yad-OX-bG9">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                </variation>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rewards" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OMe-dD-2yg">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="117" y="526" width="166" height="30"/>
-                                </variation>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="QtQ-AB-VHv"/>
-                                <exclude reference="9Vf-X0-IHg"/>
-                                <exclude reference="yad-OX-bG9"/>
-                                <exclude reference="OMe-dD-2yg"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="QtQ-AB-VHv"/>
-                                <include reference="9Vf-X0-IHg"/>
-                                <include reference="yad-OX-bG9"/>
-                                <include reference="OMe-dD-2yg"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="user" id="SxM-5V-fCF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t9q-Kv-r7l" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-706.5" y="1566"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="UKu-kg-tMn">
             <objects>
@@ -401,7 +334,7 @@
                                     <rect key="frame" x="114" y="386" width="173" height="49"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="fgp-by-Kot" kind="show" id="WCz-kL-NdG"/>
+                                    <segue destination="Esv-j7-7i3" kind="show" id="ckv-ee-Hh0"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tGF-BM-XIp">
@@ -442,6 +375,23 @@
             </objects>
             <point key="canvasLocation" x="-1132.5" y="774.75"/>
         </scene>
+        <!--Registration View Controller-->
+        <scene sceneID="A5y-BU-4Q4">
+            <objects>
+                <viewController id="Esv-j7-7i3" customClass="RegistrationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NDO-iU-sjC"/>
+                        <viewControllerLayoutGuide type="bottom" id="OhO-Ns-dHY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HVm-Hw-8Mm">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="owX-2d-WHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-795" y="1513.5"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -456,7 +406,6 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="gNv-Us-b2Q" kind="relationship" relationship="viewControllers" id="XEr-vo-aPI"/>
-                        <segue destination="fgp-by-Kot" kind="relationship" relationship="viewControllers" id="q0r-eR-Wzl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -476,7 +425,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="HBX-oh-rFR"/>
-        <segue reference="WCz-kL-NdG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.2078431547" green="0.078431375319999996" blue="0.7607843876" alpha="1" colorSpace="deviceRGB"/>
 </document>
