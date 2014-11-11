@@ -14,6 +14,7 @@
 		6537EB681A0EAC4F000CAEC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6537EB671A0EAC4F000CAEC1 /* Images.xcassets */; };
 		6537EB6B1A0EAC4F000CAEC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6537EB691A0EAC4F000CAEC1 /* LaunchScreen.xib */; };
 		6537EB771A0EAC4F000CAEC1 /* ParkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6537EB761A0EAC4F000CAEC1 /* ParkAppTests.swift */; };
+		6545C22E1A11AB880024ECB7 /* maglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 6545C22D1A11AB880024ECB7 /* maglass.png */; };
 		65702A171A10230000FD1303 /* SearchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A161A10230000FD1303 /* SearchPage.m */; };
 		65702A1A1A10234400FD1303 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A191A10234400FD1303 /* MainPage.m */; };
 		65702A1D1A10235000FD1303 /* ReportPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65702A1C1A10235000FD1303 /* ReportPage.m */; };
@@ -47,6 +48,7 @@
 		6537EB701A0EAC4F000CAEC1 /* ParkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6537EB751A0EAC4F000CAEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6537EB761A0EAC4F000CAEC1 /* ParkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAppTests.swift; sourceTree = "<group>"; };
+		6545C22D1A11AB880024ECB7 /* maglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maglass.png; path = ../../../../../Downloads/maglass.png; sourceTree = "<group>"; };
 		65702A151A10230000FD1303 /* SearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchPage.h; path = ../SearchPage.h; sourceTree = "<group>"; };
 		65702A161A10230000FD1303 /* SearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchPage.m; path = ../SearchPage.m; sourceTree = "<group>"; };
 		65702A181A10234400FD1303 /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		6537EB5C1A0EAC4F000CAEC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6545C22D1A11AB880024ECB7 /* maglass.png */,
 				6537EB601A0EAC4F000CAEC1 /* FirstViewController.swift */,
 				F377A9361A0EC5480001480E /* LoginViewController.m */,
 				6537EB671A0EAC4F000CAEC1 /* Images.xcassets */,
@@ -244,6 +247,7 @@
 			files = (
 				6537EB661A0EAC4F000CAEC1 /* Main.storyboard in Resources */,
 				6537EB6B1A0EAC4F000CAEC1 /* LaunchScreen.xib in Resources */,
+				6545C22E1A11AB880024ECB7 /* maglass.png in Resources */,
 				6537EB681A0EAC4F000CAEC1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

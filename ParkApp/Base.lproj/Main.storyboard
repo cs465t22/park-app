@@ -33,15 +33,9 @@
                                     <rect key="frame" x="16" y="81" width="351" height="30"/>
                                 </variation>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" translatesAutoresizingMaskIntoConstraints="NO" id="kFc-MK-StI">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="318" y="81" width="49" height="30"/>
-                                </variation>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9SG-g3-11y">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" image="user">
+                                <state key="normal" image="searchNew">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -53,19 +47,17 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="9GJ-u3-lNT"/>
-                                <exclude reference="kFc-MK-StI"/>
                                 <exclude reference="9SG-g3-11y"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="9GJ-u3-lNT"/>
-                                <include reference="kFc-MK-StI"/>
                                 <include reference="9SG-g3-11y"/>
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="search" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="iconpls2" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -212,7 +204,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Rent" image="RentImage" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" enabled="NO" title="Rent" image="maglass.png" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -229,25 +221,7 @@
                     <view key="view" contentMode="scaleToFill" id="Lo2-eB-weP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="webcam" translatesAutoresizingMaskIntoConstraints="NO" id="8a8-9f-4au">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="165" y="653" width="70" height="55"/>
-                                </variation>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="8a8-9f-4au"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="8a8-9f-4au"/>
-                            </mask>
-                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Report" image="reportPNG" id="LP3-jG-t4F"/>
                 </viewController>
@@ -467,12 +441,12 @@
     <resources>
         <image name="GuestUser" width="309" height="194"/>
         <image name="Login" width="310" height="90"/>
-        <image name="RentImage" width="32" height="32"/>
+        <image name="iconpls2" width="32" height="32"/>
+        <image name="maglass.png" width="32" height="32"/>
         <image name="reportPNG" width="32" height="32"/>
-        <image name="search" width="32" height="32"/>
+        <image name="searchNew" width="427" height="424"/>
         <image name="signUpNew" width="310" height="90"/>
         <image name="user" width="32" height="32"/>
-        <image name="webcam" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="HBX-oh-rFR"/>
