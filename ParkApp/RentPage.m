@@ -24,6 +24,8 @@
     
     [self.tabBarController.tabBar setTintColor:orange];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    [[UITabBar appearance] setBarTintColor:blue];
+
 }
 
 - (void)didReceiveMemoryWarning {

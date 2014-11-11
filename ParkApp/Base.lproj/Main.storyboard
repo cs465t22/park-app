@@ -353,37 +353,40 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ParkApp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00D-xT-HwA">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.86517458545918369" green="0.4344688832335542" blue="0.0017894012650493303" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="147" y="139" width="106" height="34"/>
+                                    <rect key="frame" x="147" y="118" width="106" height="34"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tGF-BM-XIp">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <color key="textColor" red="0.074509806931018829" green="0.090196080505847931" blue="0.81568634510040283" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="82" y="181" width="237" height="30"/>
-                                </variation>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bAr-bW-Grp">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <color key="textColor" red="0.20784315466880798" green="0.078431375324726105" blue="0.76078438758850098" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="82" y="219" width="237" height="30"/>
+                                    <rect key="frame" x="114" y="246" width="173" height="30"/>
                                 </variation>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoU-C2-cEy">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Guest Login" image="GuestUser">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="114" y="408" width="173" height="109"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="49e-Tb-3d3" kind="show" id="Ko6-US-hnU"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFi-a1-jIs">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Login" image="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="114" y="265" width="173" height="48"/>
+                                    <rect key="frame" x="114" y="308" width="173" height="48"/>
                                 </variation>
                                 <connections>
                                     <segue destination="49e-Tb-3d3" kind="show" id="HBX-oh-rFR"/>
@@ -391,48 +394,45 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDb-t6-1Ms">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Sign Up" image="Sign Up">
+                                <state key="normal" title="Sign Up" image="signUpNew">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="114" y="333" width="173" height="49"/>
+                                    <rect key="frame" x="114" y="386" width="173" height="49"/>
                                 </variation>
                                 <connections>
                                     <segue destination="fgp-by-Kot" kind="show" id="WCz-kL-NdG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoU-C2-cEy">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Guest Login" image="GuestUser">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tGF-BM-XIp">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <color key="textColor" red="0.076757871676673695" green="0.065486676401724606" blue="0.77274185419082642" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="114" y="354" width="173" height="109"/>
+                                    <rect key="frame" x="114" y="186" width="173" height="30"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="49e-Tb-3d3" kind="show" id="Ko6-US-hnU"/>
-                                </connections>
-                            </button>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="00D-xT-HwA"/>
-                                <exclude reference="tGF-BM-XIp"/>
                                 <exclude reference="bAr-bW-Grp"/>
+                                <exclude reference="SoU-C2-cEy"/>
                                 <exclude reference="AFi-a1-jIs"/>
                                 <exclude reference="wDb-t6-1Ms"/>
-                                <exclude reference="SoU-C2-cEy"/>
+                                <exclude reference="tGF-BM-XIp"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="00D-xT-HwA"/>
-                                <include reference="tGF-BM-XIp"/>
                                 <include reference="bAr-bW-Grp"/>
+                                <include reference="SoU-C2-cEy"/>
                                 <include reference="AFi-a1-jIs"/>
                                 <include reference="wDb-t6-1Ms"/>
-                                <include reference="SoU-C2-cEy"/>
+                                <include reference="tGF-BM-XIp"/>
                             </mask>
                         </variation>
                     </view>
@@ -468,9 +468,9 @@
         <image name="GuestUser" width="309" height="194"/>
         <image name="Login" width="310" height="90"/>
         <image name="RentImage" width="32" height="32"/>
-        <image name="Sign Up" width="310" height="90"/>
         <image name="reportPNG" width="32" height="32"/>
         <image name="search" width="32" height="32"/>
+        <image name="signUpNew" width="310" height="90"/>
         <image name="user" width="32" height="32"/>
         <image name="webcam" width="32" height="32"/>
     </resources>

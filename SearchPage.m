@@ -24,21 +24,10 @@
     
     [self.tabBarController.tabBar setTintColor:orange];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-    UIColor *blueDark = [UIColor colorWithRed:14/255.0 green:51/255.0 blue:240/255.0 alpha:1];
 
     
-    [[UITabBar appearance] setBackgroundColor:blueDark];
+    [[UITabBar appearance] setBarTintColor:blue];
 
-    
-    /*
-     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-     [UIColor whiteColor], UITextAttributeTextColor,
-     nil] forState:UIControlStateNormal];
-     UIColor *titleHighlightedColor = [UIColor colorWithRed:153/255.0 green:192/255.0 blue:48/255.0 alpha:1.0];
-     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-     titleHighlightedColor, UITextAttributeTextColor,
-     nil] forState:UIControlStateHighlighted];
-     */
 }
 
 - (void)didReceiveMemoryWarning {
