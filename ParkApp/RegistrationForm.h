@@ -41,18 +41,11 @@ typedef NS_OPTIONS(NSInteger, ServicePlan)
 @property (nonatomic, copy) NSString *repeatPassword;
 
 @property (nonatomic, copy) NSString *name;
-@property (nonatomic, assign) Gender gender;
-@property (nonatomic, assign) NSUInteger age;
-@property (nonatomic, strong) NSDate *dateOfBirth;
-@property (nonatomic, strong) UIImage *profilePhoto;
 @property (nonatomic, copy) NSString *phone;
-@property (nonatomic, copy) NSString *country;
-@property (nonatomic, copy) NSString *language;
-@property (nonatomic, copy) NSArray *interests;
-@property (nonatomic, assign) Interests otherInterests;
-@property (nonatomic, copy) NSString *about;
 
-@property (nonatomic, assign) ServicePlan plan;
+@property (nonatomic, copy) NSString *carName;
+@property (nonatomic, copy) NSString *carModel;
+@property (nonatomic, copy) NSString *carColor;
 
 @property (nonatomic, copy) NSString *notifications;
 
