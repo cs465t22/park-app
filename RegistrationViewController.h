@@ -7,6 +7,7 @@
 //
 
 #import "FXForms.h"
+#import "MainPage.h"
 
 @interface RegistrationViewController : FXFormViewController
 

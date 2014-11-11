@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainPage : UIViewController
+@interface MainPage : UIViewController <UITextFieldDelegate>
+
+@property(strong, nonatomic) IBOutlet UITextField * userName;
+@property(strong, nonatomic) IBOutlet UITextField * password;
 
 @end

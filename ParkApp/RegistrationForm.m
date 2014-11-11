@@ -29,7 +29,7 @@
              //just refer to them by name to use the default settings
              
              @"password",
-             @"repeatPassword",
+             @"confirm password",
              
              //we want to add another group header here, and modify the auto-capitalization
              

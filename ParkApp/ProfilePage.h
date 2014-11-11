@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ProfilePage : UITableViewController
+@interface ProfilePage : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property(strong, nonatomic) IBOutlet UITableView *profileTable;
+@property(strong, nonatomic) NSArray * staticData;
 @end

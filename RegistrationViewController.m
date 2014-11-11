@@ -21,6 +21,24 @@
     self.formController.form = [[RegistrationForm alloc] init];
 }
 
+-(IBAction)submitRegistrationForm:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations!"
+                                                    message:@"Thank you for registering, you will be logged in now."
+                                                   delegate:self
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    // the user clicked OK
+    if (buttonIndex == 0) {
+        [self.navigationController popToRootViewControllerAnimated:false];
+        MainPage * lvc = [[MainPage alloc] init];
+        [self.navigationController pushViewController:lvc animated:false];
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

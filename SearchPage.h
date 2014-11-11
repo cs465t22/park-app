@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchPage : UIViewController
+@interface SearchPage : UIViewController <UITextFieldDelegate>
+
+@property(strong, nonatomic) IBOutlet UITextField * searchField;
 
 @end
