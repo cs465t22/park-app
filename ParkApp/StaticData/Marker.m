@@ -10,7 +10,7 @@
 
 @implementation Marker
 
-@synthesize coord;
+@synthesize marker;
 @synthesize rate;
 @synthesize safety;
 

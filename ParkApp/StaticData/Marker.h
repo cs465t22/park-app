@@ -9,18 +9,17 @@
 #ifndef ParkApp_SearchData_Marker_h
 #define ParkApp_SearchData_Marker_h
 
-#import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
+#import <GoogleMaps/GoogleMaps.h>
 
 @interface Marker : NSObject {
-    CLLocationCoordinate2D coord;
+	GMSMarker *marker;
     NSNumber *rate;
     NSNumber *safety;
 }
 
-@property CLLocationCoordinate2D coord;
-@property (retain) NSNumber *rate;
-@property (retain) NSNumber *safety;
+@property (nonatomic, retain) *marker;
+@property (nonatomic, retain) NSNumber *rate;
+@property (nonatomic, retain) NSNumber *safety;
 
 @end
 
