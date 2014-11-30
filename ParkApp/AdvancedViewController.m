@@ -8,7 +8,7 @@
 
 #import "AdvancedViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
-#import "StaticData/Controller.m"
+
 
 @interface AdvancedViewController ()
 
